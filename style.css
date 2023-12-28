@@ -125,4 +125,43 @@ ul li a {
 /* Sale section  */
 .sale{
     background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 0 100px;
+    margin: 100px 0;
+}
+.sale__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.sale__mark{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sale__dec{
+    margin: 24px 0 34px 0;
+}
+.sale__button{
+    text-align: center;
+}
+/* === Instagram Section === */
+.instragram{
+    margin-bottom: 120px;
+}
+.instragram__dec{
+    margin: 24px 0 40px 0;
+}
+.instragram__grid{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+/* === Deals Section === */
+/* .deals__container{
+    max-width: 1140px;
+} */
+.deals{
+    background-image: url('image/Footer-top.png');
+    background-repeat: no-repeat;
 }
